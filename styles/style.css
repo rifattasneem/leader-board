@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700&family=Lobster&family=Poppins:wght@400;500;600&display=swap');
 
+*{
+   margin: 0;
+   padding: 0;
+}
 body{
    font-family: 'Poppins', sans-serif;
    background-color: #F3F1FF;
@@ -20,9 +24,52 @@ main{
 }
 .section-title{
    margin-top: 0;
+   margin-bottom: 20px;
    font-size: 24px;
    color: #562EFF;
 }
+
+header{
+   background-color: #562EFF;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 36px;
+}
+.nav-container{
+   width: 930px;
+   padding: 25px 0;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.logo{
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+}
+.logo img{
+   width: 42px;
+   margin-right: 16px;
+}
+.logo p{
+   font-size: 24px;
+   color: #ffffff;
+   text-decoration: none;
+}
+.menu{
+   display: flex;
+   align-items: center;
+}
+.menu a{
+   margin-left: 36px;
+   font-size: 16px;
+   font-weight: 400;
+   color: #ffffff;
+   text-decoration: none;
+}
+
 
 .top-players{
    margin-bottom: 20px;
