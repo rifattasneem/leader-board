@@ -212,10 +212,9 @@ nav{
    header{
       display: flex;
       justify-content: center;
-      margin-bottom: 36px;
+      margin-bottom: 20px;
    }
    .nav-container{
-      width: 930px;
       padding: 25px 0;
    }
    nav{
@@ -238,7 +237,12 @@ nav{
       text-align: center;
    }
    .container, .nav-container{
-      width: 100%;
+      width: 90%;
+      margin: auto;
+   }
+   .container{
+      margin-bottom: 10px;
+      padding: 10px;
    }
    .players{
       grid-template-columns: repeat(1,1fr);
@@ -273,9 +277,9 @@ nav{
       row-gap: 30px;
    }
    .course{
-      padding: 30px;
+      padding: 10px;
    }
    .duration {
-      padding: 7px 15px;
+      padding: 5px 10px;
    }
 }
